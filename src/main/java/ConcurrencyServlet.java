@@ -14,7 +14,7 @@ public class ConcurrencyServlet extends HttpServlet {
 
         req.setAttribute("rate",rate);
         req.setAttribute("value",value);
-        req.getRequestDispatcher("concurrency").forward(req,resp);
+        req.getRequestDispatcher("concurrency.jsp").forward(req,resp);
     }
 
 }
